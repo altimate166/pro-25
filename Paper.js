@@ -21,7 +21,7 @@ class Paper{
     rectMode(CENTER)
     fill(255,0,255)
     imageMode(CENTER)
-    image(this.image,0,0,33,33)
+    image(this.image,68,45,this.r,this.r)
    pop()
     }
 }
